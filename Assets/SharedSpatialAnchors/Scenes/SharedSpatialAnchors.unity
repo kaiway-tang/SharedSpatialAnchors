@@ -185,6 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sampleController: {fileID: 1110580486}
   cube: {fileID: 1506743474}
+  photonAnchorManager: {fileID: 543581506}
 --- !u!4 &191754026
 Transform:
   m_ObjectHideFlags: 0
