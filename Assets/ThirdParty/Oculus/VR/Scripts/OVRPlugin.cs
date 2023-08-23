@@ -8801,7 +8801,9 @@ public static partial class OVRPlugin
         spaceUserHandle = 0;
 #if OVRPLUGIN_UNSUPPORTED_PLATFORM
         return false;
+        Debug.Log("bruh no let through");
 #else
+        Debug.Log(":o");
         return version >= OVRP_1_79_0.version &&
                OVRP_1_79_0.ovrp_CreateSpaceUser(in spaceUserId, out spaceUserHandle) == Result.Success;
 #endif
